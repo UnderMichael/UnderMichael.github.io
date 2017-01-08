@@ -2,6 +2,7 @@ body {
   background: url("../img/background.jpg") top center no-repeat;
   font-family: 'Roboto', 'Arial', sans-serif;
   text-transform: uppercase;
+  padding: 0;
 }
 
 .clearfix::after {
@@ -12,7 +13,7 @@ body {
 
 .wrapper {
   width: 1130px;
-  margin: 180px auto;
+  margin: 150px auto;
 }
 
 .recall {
