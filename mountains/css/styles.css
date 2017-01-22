@@ -1,0 +1,473 @@
+
+header {
+  background: url("../img/pic/header.jpg") top center no-repeat;
+  min-height: 698px;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans/OpenSans-ExtraBold.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-Medium.ttf");
+  font-weight: 400;
+}
+
+.clearfix {
+  
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header__top {
+  margin: 0 auto;
+  margin-bottom: 135px;
+  max-width: 1170px;
+}
+
+.logo {
+  float: left;
+  padding: 25px 30px;
+  margin: 0 15px;
+}
+
+.navigation {
+  float: left;
+  padding: 0;
+  margin: 20px;
+  list-style: none;
+  font-size: 0;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation a {
+  display: block;
+  font-size: 12px;
+  font-family: "OpenSans";
+  line-height: 44px;
+  color: #9daeb6;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0 15px;
+}
+
+.feedback{
+  display: block;
+  float: right;
+  border: 5px solid #36aeea;
+  padding: 15px 40px;
+  border-radius: 5px;
+  color: #36aeea;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 15px;
+  font-family: "Raleway";
+}
+
+.promo {
+  margin: 0 auto;
+  max-width: 1170px;
+  border: 3px solid white;
+  padding: 40px 30px;
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: #9daeb6;
+  border-radius: 5px;
+}
+
+.promo__content {
+  width: 55%;
+}
+
+.promo__content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.promo__content a {
+  display: inline-block;
+  padding: 25px 75px;
+  background-color: #36aeea;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 14px;
+}
+
+.about {
+  background: #f6f4f4 url("../img/pic/map.png") 50% 75% no-repeat;
+  min-height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.about__content {
+  max-width: 360px;
+  font-family: "OpenSans";
+  color: #9daeb6;
+  font-size: 14px;
+  position: relative;
+}
+
+.about__photo {
+  width: 806px;
+  height: 570px;
+  background: url("../img/pic/about_big.jpg") top center no-repeat;
+  position: relative;
+  top: -100px;
+  left: 200px;
+}
+
+.about__photo::after {
+  position: absolute;
+  content: "";
+  width: 350px;
+  height: 350px;
+  background: url("../img/pic/about_small.jpg") top center no-repeat;
+  left: -90px;
+  bottom: -90px;
+  z-index: 100;
+}
+
+h3::before {
+  content: "";
+  position: absolute;
+  width: 81px;
+  height: 7px;
+  background: url("../img/icon/waves.png") top center no-repeat;
+  top: -25px;
+}
+
+h3 {
+  position: relative;
+  font-size: 20px;
+  font-family: "OpenSans";
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.about__content a{
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #36aeea;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+.galery {
+  margin: 0 auto;
+  max-width: 1140px;
+  margin-bottom: 90px;
+}
+
+.galery div {
+  float: left;
+  width: 380px;
+  height: 380px;
+  margin: 0;
+  text-align: center;
+}
+
+.galery__item1 {
+  background: url("../img/pic/journal1.jpg") top center no-repeat;
+}
+
+.galery__item3 {
+  background: url("../img/pic/journal2.jpg") top center no-repeat;
+}
+
+.galery__item5 {
+  background: url("../img/pic/journal3.jpg") top center no-repeat;
+}
+
+.galery a {
+  position: relative;
+  width: 81px;
+  height: 81px;
+  top: 40%;
+}
+
+.galery span {
+  font-family: "OpenSans";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #36aeea;
+  display: block;
+  margin: 50px auto;
+}
+
+.galery strong {
+  font-family: "OpenSans";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 30px;
+}
+
+.galery p {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 30px;
+}
+
+h2 {
+  font-family: "OpenSans";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 42px;
+  margin: 110px auto 75px;
+  text-align: center;
+  position: relative;
+}
+
+h2::before {
+  position: absolute;
+  content: "";
+  width: 81px;
+  height: 7px;
+  background: url("../img/icon/waves.png") top center no-repeat;
+  top: -30px;
+  left: 50%;
+  margin-left: -40.5px;
+}
+
+.galery__item2 {
+  box-shadow: 0 -1px 10px -1px #838383;
+  position: relative;
+}
+
+.galery__item2::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #ffffff;
+  transform: rotate(45deg);
+  top: 65px;
+  left: -10px;
+}
+
+.galery__item4 {
+  box-shadow: -1px 1px 10px -1px #838383;
+  position: relative;
+}
+
+.galery__item4::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #ffffff;
+  transform: rotate(45deg);
+  top: 65px;
+  right: -10px;
+}
+
+.galery__item6 {
+  box-shadow: 1px 1px 10px -1px #838383;
+  position: relative;
+}
+
+.galery__item6::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #ffffff;
+  transform: rotate(45deg);
+  left: 65px;
+  top: -10px;
+}
+
+.offer {
+  background: #f6f4f4 url("../img/pic/trees.jpg") top center no-repeat;
+  min-height: 651px;
+  padding-top: 190px;
+}
+
+.offer__content {
+  margin: 0 auto;
+  max-width: 1140px;
+  font-size: 16px;
+  color: #949494;
+}
+
+.offer__content p {
+  width: 800px;
+}
+
+.offer__content span {
+  color: #36aeea;
+  font-size: 14px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.offer__content span::before {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 16px;
+  background: url("../img/icon/lock.png") top center no-repeat;
+  left: 5px;
+  top: -2px;
+}
+
+.offer form {
+  margin-bottom: 15px;
+}
+
+.offer input {
+  border: none;
+  padding: 20px 20px;
+  margin: -2px;
+}
+
+.offer input:first-child {
+  border-right: 1px solid #dedddd;
+}
+
+.offer a {
+  display: inline-block;
+  padding: 20px 50px;
+  background-color: #36aeea;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "OpenSans";
+  font-size: 14px;
+}
+
+.scheme img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.travel__content {
+  min-height: 733px;
+  background: url("../img/pic/map2.png") top center no-repeat;
+}
+
+.travel {
+  background: url("../img/pic/travel_bg.jpg") bottom center no-repeat;
+  padding-bottom: 200px;
+}
+
+.travel__content div {
+  margin: 0 20px;
+  width: 160px;
+  height: 210px;
+  padding: 20px;
+  padding-top: 140px;
+  border-radius: 5px;
+}
+
+.travel__item1 {
+  background: url("../img/pic/travel1.jpg") top center no-repeat;
+}
+
+.travel__item2 {
+  background: url("../img/pic/travel2.jpg") top center no-repeat;
+}
+
+.travel__item3 {
+  background: url("../img/pic/travel3.jpg") top center no-repeat;
+}
+
+.travel__item4 {
+  background: url("../img/pic/travel4.jpg") top center no-repeat;
+}
+
+.travel__item5 {
+  background: url("../img/pic/travel5.jpg") top center no-repeat;
+}
+
+.travel__content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 1469px;
+  color: #ffffff;
+  font-family: "OpenSans";
+}
+
+.travel__content strong {
+  font-size: 28px;
+  line-height: 63px;
+  font-weight: 400;
+}
+
+.travel__content p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.travel__content span {
+  font-size: 26px;
+  line-height: 22px;
+  font-weight: 900;
+  float: right;
+  margin-top: 55px;
+}
+
+.gallery__container {
+  margin: 0 auto;
+  max-width: 1170px;
+  columns: 3;
+}
+
+.gallery__container img {
+}
