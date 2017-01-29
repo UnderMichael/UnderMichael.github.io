@@ -330,7 +330,7 @@ h2::before {
 }
 
 .offer {
-  background: #f6f4f4 url("../img/pic/trees.jpg") top center no-repeat;
+  background: #f6f4f4 url("../img/pic/trees.jpg") bottom center no-repeat;
   min-height: 651px;
   padding-top: 190px;
 }
