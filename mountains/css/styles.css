@@ -466,7 +466,6 @@ h2::before {
 .gallery__container {
   margin: 0 auto;
   max-width: 1170px;
-  columns: 3;
 }
 
 .gallery__container img {
