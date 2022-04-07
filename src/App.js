@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import AddGoodsContainer from "./components/AddGoodsContainer";
 
 function App() {
   return (
@@ -12,10 +13,12 @@ function App() {
         <a
           className="App-link"
           href="https://reactjs.org"
+          target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
+        <AddGoodsContainer/>
       </header>
     </div>
   );
