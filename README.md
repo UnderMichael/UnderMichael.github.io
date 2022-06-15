@@ -6,4 +6,4 @@
 
 Результаты работы функций выводятся в консоль
 
-https://undermichael.github.io/
+https://undermichael.github.io/public/index.html
